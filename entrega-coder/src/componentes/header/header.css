@@ -1,0 +1,32 @@
+
+.header1{
+    background-color: blanchedalmond;
+}
+.header23{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.headerlogo{
+    font-size: 35px;
+    font-weight: 700;
+    color: antiquewhite;
+}
+
+.header_nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+.headerlink{
+    color: violet;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+}

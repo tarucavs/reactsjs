@@ -1,0 +1,10 @@
+.listcontainer{
+    max-width: 1100px;
+    margin: o auto;
+    padding: 20 px 0 ;
+
+}
+.listcontainer h2{
+    color: bisque;
+    font-size: 20px;
+}
