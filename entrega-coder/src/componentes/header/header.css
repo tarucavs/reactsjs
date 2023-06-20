@@ -1,32 +1,122 @@
-
-.header1{
-    background-color: blanchedalmond;
-}
-.header23{
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 20px 0;
+.body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+  }
+  
+  .nav__container {
+    background-color:brown;
+  }
+  
+  .form__container {
+    margin-left: 150px;
+  }
+  
+  .logo__container {
+    margin-left: 20px;
+    margin-right: 50px;
+  }
+  
+  .hamburguer-button {
+    margin-left: 30px;
+    padding: 15px;
+  }
+  
+  .sidebar__container {
+    background-color: #181a1b !important;
+    border-top: 0 !important;
+  }
+  
+  .sidebar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.headerlogo{
-    font-size: 35px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 17%;
+    height: 100vh;
+    background-color: black;
+    padding-top: 2rem;
+    position: fixed;
+    left: 0;
+    z-index: 9999;
+  
+    &.active {
+      transform: translateX(0);
+    }
+  
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  
+    &__list {
+      list-style: none;
+      margin-left: 30px;
+      padding: 0;
+  
+      li {
+        margin-bottom: 1rem;
+  
+        a {
+          text-decoration: none;
+          color: green;
+  
+          &:hover {
+            color: white;
+          }
+        }
+  
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  
+    overflow-y: auto;
+    padding-top: 2rem;
+  
+    &__text {
+      color: white;
+      margin-left: 10px;
+      font-size: 20px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+  }
+  
+  .cart__container {
+    display: flex;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .cart__container p {
+    margin-right: 5px;
+  }
+  
+  .cart-widget__count span {
+  
+    background-color: #01f603;
+    margin-left: 5px;
+    border-radius: 70%;
+    color: #000;
     font-weight: 700;
-    color: antiquewhite;
-}
-
-.header_nav{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-
-}
-.headerlink{
-    color: violet;
-    font-size: 18px;
-    text-transform: uppercase;
+    min-width: 24px;
+    padding: 4px;
+    text-align: center;
+  }
+  
+  .nav__link {
     text-decoration: none;
-}
+    font-size: 18px;
+    margin-right: 20px;
+    font-family: Cambria, serif;
+    color: green;
+    
+  }

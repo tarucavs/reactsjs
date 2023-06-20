@@ -1,10 +1,23 @@
-.listcontainer{
-    max-width: 1100px;
-    margin: o auto;
-    padding: 20 px 0 ;
 
-}
-.listcontainer h2{
-    color: bisque;
+
+.list__container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 0;
+
+  h5 {
+    color: #c1bcb4 !important;
+    font-size: 1.7em;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+
+  p {
     font-size: 20px;
+  }
+}
+
+.container__principal {
+  display: flex;
+  justify-content: center;
 }

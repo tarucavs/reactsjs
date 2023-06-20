@@ -1,0 +1,12 @@
+.cart-modal .modal-content {
+    background-color: #232525;
+  }
+  
+  .cart-modal .modal-content p {
+   color: blanchedalmond;
+  }
+  
+  .cart-modal h4 {
+    color: cadetblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
